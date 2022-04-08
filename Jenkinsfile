@@ -4,7 +4,7 @@ pipeline {
         stage('build') {
             steps {
                 sh 'echo "Welcome to Basecamp"'
-		sh 'bash build.sh'
+		sh 'bash /Users/joepeterson/.jenkins/workspace/BaseCamp_main/build.sh'
             }
         }
     }
